@@ -2,8 +2,6 @@
 
 .frogg
 {
-    display: flex;
-
     width: 100%;
 }
 .frog
@@ -93,4 +91,12 @@ h1
 
     color: #fff;
     text-shadow: 0 0 4px #fff;    ;
+}
+@media (min-width: 768px)
+{
+    .frog
+    {
+        margin-top: 39vw;
+        margin-left: 4vw;
+    }
 }
